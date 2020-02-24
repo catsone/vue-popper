@@ -128,7 +128,8 @@ export default {
           "click", // Same as clickToToggle, provided for backwards compatibility.
           "clickToToggle",
           "hover",
-          "focus"
+          "focus",
+          "programmatic"
         ].indexOf(value) > -1
     },
     delayOnMouseOver: {

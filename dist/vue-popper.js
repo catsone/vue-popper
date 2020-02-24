@@ -1747,7 +1747,7 @@
         "default": "hover",
         validator: function validator(value) {
           return ["clickToOpen", "click", // Same as clickToToggle, provided for backwards compatibility.
-          "clickToToggle", "hover", "focus"].indexOf(value) > -1;
+          "clickToToggle", "hover", "focus", "programmatic"].indexOf(value) > -1;
         }
       },
       delayOnMouseOver: {
